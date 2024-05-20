@@ -69,14 +69,7 @@ body {
   height: 100%;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
+footer {
+    justify-content: center;
+    color: white;
 }
