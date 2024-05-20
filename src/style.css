@@ -16,6 +16,10 @@ h3 {
   font-style: italic;
 }
 
+h2 {
+    color: white
+}
+
 body {
   background-image: linear-gradient(0deg, #151e1e 0%, #000002 100%);
 }
