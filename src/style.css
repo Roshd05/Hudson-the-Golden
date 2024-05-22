@@ -88,3 +88,7 @@ body {
   text-align: center;
   margin-bottom: 10%;
 }
+
+contact.body {
+    background: black;
+}
