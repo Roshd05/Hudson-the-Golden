@@ -16,6 +16,9 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
     <title>Hudson as a Puppy</title>
   </head>
 
@@ -100,7 +103,29 @@
     div.full figure:not(.expanded) {
       pointer-events: none;
     }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+
+.email-link,
+.codedby {
+    background: black;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+.contactInfo {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
   </style>
+  
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -117,6 +142,10 @@
       <li class="nav-item">
         <a class="nav-link" href="travels.html">Travels</a>
       </li>
+      </li>
+   <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact Me</a>
+  </li>
     </ul>
     <h1>Hudson as a Puppy</h1>
     <h2>In My New Home and Life...</h2>
@@ -147,6 +176,43 @@
         <figcaption>I love the feel of the breeze on my Ears</figcaption>
       </figure>
     </div>
+
+    <div class="container-footer">
+  <footer class="bg-dark">
+    <section class="social-links">
+      <a
+        class="btn btn-primary btn-floating btn-md"
+        style="background-color: #55acee;"
+        href="https://x.com/NeNiCuTe"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a
+        class="btn btn-primary btn-floating btn-md"
+        style="background-color: #ac2bac;"
+        href="https://www.instagram.com/goldenhudson2020/"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a
+        class="btn btn-primary btn-floating btn-md"
+        style="background-color: #0082ca;"
+        href="https://www.linkedin.com/in/roshnid/"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a
+        class="btn btn-primary btn-floating btn-md"
+        style="background-color: #333333;"
+        href="https://github.com/Roshd05/"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+     </section>
+        <a href="mailto:nenicute@gmail.com" class="email-link"> Email Me 📧 </a> 
+        <a class="codedby"> Coded by Roshni Daryanani</a>
+</footer> 
+</div>
     <script src="javascript/index.js"></script>
   </body>
 </html>
